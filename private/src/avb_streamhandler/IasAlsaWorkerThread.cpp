@@ -330,7 +330,7 @@ IasResult IasAlsaWorkerThread::beforeRun()
   return IasResult::cOk;
 }
 
-
+//非常重要的函数
 IasResult IasAlsaWorkerThread::run()
 {
   IasLibPtpDaemon* ptp = IasAvbStreamHandlerEnvironment::getPtpProxy();
